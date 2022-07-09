@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 211.792 10.778">
+  <defs>
+    <path id="b" fill="#fff200" stroke-width="1.005" d="M800 129.22c0 5.953-6.325 10.78-14.128 10.78H14.129C6.326 140 0 135.173 0 129.22v-18.44C0 104.828 6.326 100 14.13 100h771.742c7.803 0 14.128 4.827 14.128 10.78v18.436z" clip-path="url(#a)"/>
+  </defs>
+  <defs>
+    <clipPath id="a" clipPathUnits="userSpaceOnUse">
+      <path fill="#fff200" stroke-width="1.007" d="M800.475 128.497c0 5.954-6.325 10.78-14.128 10.78H14.604c-7.803 0-14.13-4.826-14.13-10.78v-18.439c0-5.954 6.327-10.78 14.13-10.78h771.743c7.803 0 14.128 4.826 14.128 10.78v18.436z"/>
+    </clipPath>
+    <clipPath id="c" clipPathUnits="userSpaceOnUse">
+      <use xlink:href="#b" stroke-width="1.005" clip-path="url(#a)" transform="matrix(.9994 0 0 .98194 0 1.806)"/>
+    </clipPath>
+    <clipPath id="f" clipPathUnits="userSpaceOnUse">
+      <use xlink:href="#b" stroke-width="1.005" clip-path="url(#c)" transform="matrix(.2637 0 0 .26212 -.173 73.656)"/>
+    </clipPath>
+    <clipPath id="e" clipPathUnits="userSpaceOnUse">
+      <use xlink:href="#b" stroke-width="1.005" clip-path="url(#c)" transform="matrix(.25217 0 0 .28288 -.12 76.696)"/>
+    </clipPath>
+    <clipPath id="d" clipPathUnits="userSpaceOnUse">
+      <use xlink:href="#b" stroke-width="1.005" clip-path="url(#c)"/>
+    </clipPath>
+  </defs>
+  <use xlink:href="#b" clip-path="url(#d)" transform="matrix(.26474 0 0 .26945 0 -26.945)"/>
+  <text x="100.947" y="113.133" fill="#fff200" stroke="#000" stroke-miterlimit="10" stroke-width=".174" clip-path="url(#e)" font-family="monospace" font-size="6.496" font-weight="700" style="line-height:0;-inkscape-font-specification:'monospace, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" transform="matrix(1.06309 0 0 .95233 -1.209 -99.978)"><tspan fill="#000" style="line-height:0;-inkscape-font-specification:'monospace, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center" text-anchor="middle">Website en construcción</tspan></text>
+  <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.117" clip-path="url(#f)" transform="matrix(1.00396 0 0 1.02795 .173 -102.66)">
+    <path d="m-.742 114.662 19.094-19.093m-7.039 19.093 19.095-19.093m-7.04 19.093 19.094-19.093m-7.038 19.093 19.092-19.093m101.455 19.093 19.092-19.094m-7.038 19.094 19.095-19.094m-7.04 19.094 19.095-19.094m-7.041 19.094 19.095-19.094"/>
+  </g>
+</svg>
