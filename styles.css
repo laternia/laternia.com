@@ -1,55 +1,51 @@
-/**********************************************  TYPOGRAPHY ************************************/
-
-/*********** Font-Family : Lato ***********/
-
 @font-face {
     font-family: "Lato";
-    src: url("/fonts/Lato/Lato-Black.ttf") format("truetype");
+    src: url("fonts/Lato/Lato-Black.ttf") format("truetype");
     font-weight: 900;
 }
 
 @font-face {
     font-family: "Lato";
-    src: url("/fonts/Lato/Lato-BlackItalic.ttf") format("truetype");
+    src: url("fonts/Lato/Lato-BlackItalic.ttf") format("truetype");
     font-weight: 900;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Lato";
-    src: url("/fonts/Lato/Lato-Bold.ttf") format("truetype");
+    src: url("fonts/Lato/Lato-Bold.ttf") format("truetype");
     font-weight: 700;
 }
 
 @font-face {
     font-family: "Lato";
-    src: url("/fonts/Lato/Lato-BoldItalic.ttf") format("truetype");
+    src: url("fonts/Lato/Lato-BoldItalic.ttf") format("truetype");
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Lato";
-    src: url("/fonts/Lato/Lato-Regular.ttf") format("truetype");
+    src: url("fonts/Lato/Lato-Regular.ttf") format("truetype");
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Lato";
-    src: url("/fonts/Lato/Lato-Italic.ttf") format("truetype");
+    src: url("fonts/Lato/Lato-Italic.ttf") format("truetype");
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Lato";
-    src: url("/fonts/Lato/Lato-Light.ttf") format("truetype");
+    src: url("fonts/Lato/Lato-Light.ttf") format("truetype");
     font-weight: 300;
 }
 
 @font-face {
     font-family: "Lato";
-    src: url("/fonts/Lato/Lato-LightItalic.ttf") format("truetype");
+    src: url("fonts/Lato/Lato-LightItalic.ttf") format("truetype");
     font-weight: 300;
     font-style: italic;
 }
@@ -57,47 +53,42 @@
 
 @font-face {
     font-family: "Lato";
-    src: url("/fonts/Lato/Lato-Thin.ttf") format("truetype");
+    src: url("fonts/Lato/Lato-Thin.ttf") format("truetype");
     font-weight: 100;
 }
 
 @font-face {
     font-family: "Lato";
-    src: url("/fonts/Lato/Lato-ThinItalic.ttf") format("truetype");
+    src: url("fonts/Lato/Lato-ThinItalic.ttf") format("truetype");
     font-weight: 100;
     font-style: italic;
 }
 
-/*********** Font-Family : Amaranth ***********/
-
 @font-face {
     font-family: "Amaranth";
-    src: url("/fonts/Amaranth/Amaranth-Regular.ttf") format("truetype");
+    src: url("fonts/Amaranth/Amaranth-Regular.ttf") format("truetype");
     font-weight: 400;
 }
   
 @font-face {
     font-family: "Amaranth";
-    src: url("/fonts/Amaranth/Amaranth-Italic.ttf") format("truetype");
+    src: url("fonts/Amaranth/Amaranth-Italic.ttf") format("truetype");
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Amaranth";
-    src: url("/fonts/Amaranth/Amaranth-Bold.ttf") format("truetype");
+    src: url("fonts/Amaranth/Amaranth-Bold.ttf") format("truetype");
     font-weight: 700;
 }
   
 @font-face {
     font-family: "Amaranth";
-    src: url("/fonts/Amaranth/Amaranth-BoldItalic.ttf") format("truetype");
+    src: url("fonts/Amaranth/Amaranth-BoldItalic.ttf") format("truetype");
     font-weight: 700;
     font-style: italic;
 }
-/***********************************************************************************************/
-
-/********************************************* RESET *******************************************/
 
 * {
     padding: 0;
@@ -119,8 +110,7 @@ body, header, main, footer, div, p, span, img, a, cite, label {
 html {
     font-size: 62.5%;
 }
-/*************************************************************************************************/
-/********************************************** FONTS  *******************************************/
+
 
 .phrase {
     font-style: italic;
@@ -146,18 +136,12 @@ html {
     font-size: clamp(1.8rem, 3vw, 2.5rem); 
 }
 
-/**************************************************************************************************/
-/********************************************** LAYOUT ********************************************/
-
-
-
 
 body {
     height: 100vh;
 }
 
 
-/******************************************** MAIN BLOCK ******************************************/
 
 .main {
     text-align: center;
@@ -188,8 +172,7 @@ body {
     width: 100%;
     max-width: 1600px;
 }
-/****************************************************************************************************/
-/******************************************** FOOTER BLOCK ******************************************/
+
 
 .contact-container {
     width: 85vw;
@@ -235,8 +218,6 @@ body {
     align-items: center;
     flex-wrap: nowrap;
 }
-/***********************************************************************************************************/
-/************************************************  IMAGES   ************************************************/
 
 .header-logo-img {
     width: 100vw;
